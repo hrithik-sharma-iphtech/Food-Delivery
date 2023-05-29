@@ -1,0 +1,22 @@
+.ratingSwipe{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ratingContent{
+    width: 80%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.ratingSwipe .cardHead{
+    font-size: 3rem;
+    font-weight: 200;
+    padding: 20px;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    color: #999;
+}

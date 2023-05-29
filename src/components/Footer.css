@@ -1,0 +1,22 @@
+.bg-footer{
+    background-color: #3b3b3b;
+    color: #eee;
+}
+
+.bg-footer h6{
+    color: #03a503;
+    font-weight: 800;
+}
+
+.bg-footer .footerText{
+    font-size: 13px;
+    color: #ccc;
+}
+.bg-footer p{
+    font-size: 15px;
+}
+.bg-copyright{
+    background-color: #252525;
+    font-size: 15px;
+    color: #999;
+}
