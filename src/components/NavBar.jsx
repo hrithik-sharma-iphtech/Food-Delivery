@@ -48,18 +48,18 @@ const NavBar = () => {
                   <NavLink
                     className="nav-link active"
                     aria-current="page"
-                    to="!#"
+                    to="#!"
                   >
                     Home
                   </NavLink>
                 </li>
                 <li className="nav-item me-3">
-                  <NavLink className="nav-link" aria-current="page" to="!#">
+                  <NavLink className="nav-link" aria-current="page" to="#!">
                     About us
                   </NavLink>
                 </li>
                 <li className="nav-item me-3">
-                  <NavLink className="nav-link" aria-current="page" to="!#">
+                  <NavLink className="nav-link" aria-current="page" to="#!">
                     Contact
                   </NavLink>
                 </li>

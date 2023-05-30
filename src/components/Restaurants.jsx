@@ -11,7 +11,7 @@ const Restaurants = () => {
       <div className="restrnt-bg">
         <div className="restrantCard">
           <img
-            src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80"
+            src="./Assets/food3.jpeg"
             width={300}
             className="img-fluid rounded-circle border border-5"
           />
@@ -51,7 +51,7 @@ const Restaurants = () => {
         </div>
         {/* Copyright */}
       </div>
-      {/* <AbtRestrant /> */}
+      <AbtRestrant />
     </>
   );
 };
