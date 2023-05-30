@@ -13,18 +13,22 @@ const Trending = () => {
           <hr />
           <table className="table text-start">
             <tbody>
-              {trendFood.map((food) => {
+              {trendFood?.map((food) => {
+
                 const {
-                  foodpic,
+                  foodPic,
                   restaurantName,
                   foodDesciption,
                   foodCost,
                   rating,
                 } = food;
                 return (
-                  <tr>
+                    <>
+                     
+                    <tr>
                     <td>
-                      <img src={foodpic} height={100} alt="food" />
+                      
+                      <img src={foodPic} height={100} alt="food" />
                     </td>
                     <td style={{ width: "60%" }}>
                       <h6 style={{ color: "#02851c" }}>{restaurantName}</h6>
@@ -44,6 +48,8 @@ const Trending = () => {
                       <button className="btn btn-success">ADD TO CART <span>+</span></button>
                     </td>
                   </tr>
+                    </>
+            
                 );
               })}
             </tbody>
