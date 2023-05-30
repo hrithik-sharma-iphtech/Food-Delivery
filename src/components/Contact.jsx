@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import NavBar from "./NavBar";
 
 const Contact = () => {
   return (
     <div>
-      Contact us
+      <NavBar />
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
